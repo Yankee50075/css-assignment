@@ -1,0 +1,15 @@
+h1 {
+    width: 50%; /* Adjust as needed */
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: lightgray; /* Optional for better visibility */
+}
+
+div {
+    width: 80%; /* Adjust as needed */
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 20px auto; /* Centers the div */
+    background-color: lightblue; /* Optional */
+}

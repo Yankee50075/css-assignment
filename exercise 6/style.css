@@ -1,0 +1,82 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header and Navigation */
+header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features Section */
+.features {
+    padding: 50px;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: #ddd;
+    padding: 20px;
+    width: 200px;
+}
+
+/* FAQ Section */
+.faq {
+    background: #eef;
+    padding: 50px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
