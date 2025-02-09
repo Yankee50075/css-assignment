@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: white;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.highlight {
+    color: green;
+    font-weight: bold;
+}
+
+/* Profile Images */
+.profile-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.profile-images img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Section */
+.content {
+    background: #555;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Info Box */
+.info-box {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.info-box h2 {
+    background: #fdd835;
+    padding: 10px;
+    margin: -15px -15px 10px -15px;
+    font-size: 18px;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #333;
+}
